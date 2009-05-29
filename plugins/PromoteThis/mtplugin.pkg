@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<plugin version="1.0">
+  <name>Promote This</name>
+  <version_url>http://www.majordojo.com/projects/PromoteThis/version.xml</version_url>
+  <sig>PromoteThis/PromoteThis.pl</sig>
+  <files>
+    <file>
+      <src>plugins/PromoteThis/PromoteThis.pl</src>
+      <destination>plugins/PromoteThis/PromoteThis.pl</destination>
+    </file>
+    <file>
+      <src>php/plugins</src>
+      <destination>php/plugins</destination>
+    </file>
+  </files>
+  <uninstall>
+    <rmdir>plugins/PromoteThis</rmdir>
+  </uninstall>
+</plugin>
