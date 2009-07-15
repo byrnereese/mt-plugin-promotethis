@@ -9,7 +9,7 @@ use strict;
 use MT;
 
 use vars qw( $VERSION $plugin );
-$VERSION = '1.14';
+$VERSION = '1.15';
 
 eval {
     $plugin = new MT::Plugin({
@@ -43,6 +43,14 @@ MT::Template::Context->add_tag(LinkedinURL => sub {
     $link .= '&amp;title=' . MT::Util::encode_url($entry->title);
     $link .= '&amp;summary=' . MT::Util::encode_url($entry->excerpt);
     $link .= '&amp;source=' . MT::Util::encode_url($blog->site_url);
+    return $link;
+});
+MT::Template::Context->add_tag(TwitthisURL => sub {
+    my $ctx = shift;
+    my $entry = $ctx->stash('entry');
+    my $link = 'http://twitthis.com/';
+    $link .= 'twit?url=' . MT::Util::encode_url($entry->permalink);
+    $link .= '&t=' . MT::Util::encode_url($entry->title);
     return $link;
 });
 MT::Template::Context->add_tag(TechnoratiURL => sub { 
