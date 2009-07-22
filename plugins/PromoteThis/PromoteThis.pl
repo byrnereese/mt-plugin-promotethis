@@ -9,7 +9,7 @@ use strict;
 use MT;
 
 use vars qw( $VERSION $plugin );
-$VERSION = '1.15';
+$VERSION = '1.16';
 
 eval {
     $plugin = new MT::Plugin({
@@ -265,13 +265,31 @@ MT::Template::Context->add_tag(SphereItURL => sub {
 });
 
 
-
 MT::Template::Context->add_tag(EmailLinkURL => sub {
     my $ctx = shift;
     my $entry = $ctx->stash('entry');
     my $link = 'mailto:';
     $link .= '?body=' . MT::Util::encode_url($entry->permalink);
     $link .= '&amp;subject=' . MT::Util::encode_url($entry->title);
+    return $link;
+});
+
+MT::Template::Context->add_tag(NetLogURL => sub {
+    my $ctx = shift;
+    my $entry = $ctx->stash('entry');
+    my $link = 'http://www.netlog.com/go/manage/links/view=save&amp;origin=external';
+    $link .= '&amp;url=' . MT::Util::encode_url($entry->permalink);
+    $link .= '&amp;title=' . MT::Util::encode_url($entry->title);
+    $link .= '&amp;description=' . MT::Util::encode_url($entry->excerpt);
+    return $link;
+});
+
+
+MT::Template::Context->add_tag(TwitterURL => sub {
+    my $ctx = shift;
+    my $entry = $ctx->stash('entry');
+    my $link = 'http://twitter.com/home';
+    $link .= '?status=Currently%20reading%20' . MT::Util::encode_url($entry->permalink);
     return $link;
 });
 
