@@ -84,13 +84,13 @@ Although After6 Services LLC has contributed to the development of this plugin, 
 
 Please consult the LICENSE.md file that was included in this plugin's distribution.
 
-# Author
+# Authorship
 
 A substantial part of Promote This! was written by Byrne Reese, byrne at majordojo dot com, both before and after he worked at Six Apart.
 
 Dave Aiello, dave dot aiello at after6services dot com, updated the plugin for use with Movable Type 5.2.3 and later.
 
-COPYRIGHT
+# Copyright
 
 Copyright &copy; 2006-2008, Six Apart, Ltd.  All rights reserved.
 
