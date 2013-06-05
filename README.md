@@ -41,36 +41,38 @@ The plugin files, once installed should match that shown below:
                        function.mtsphereiturl.php
 
 
-# Template Tags
+# Usage
+
+## Template Tags
 
 Each of these tags MUST be called within the context of an MTEntry tag.
 Tach tag outputs a raw URL that is intended to be used in an a@href
 element.
 
-  <$MTMagnoliaURL$>
-  <$MTDiggURL$>
-  <$MTdeliciousURL$>
-  <$MTredditURL$>
-  <$MTNewsvineURL$>
-  <$MTFurlURL$>
-  <$MTFarkURL$>
-  <$MTGoogleURL$>
-  <$MTSpurlURL$>
-  <$MTMyWebURL$>
-  <$MTBlinkListURL$>
-  <$MTBlinkBitsURL$>
-  <$MTConnoteaURL$>
-  <$MTFeedMeLinksURL$>
-  <$MTShadowsURL$>
-  <$MTSimpyURL$>
-  <$MTStumbleUponURL$>
-  <$MTLinkrollURL$>
-  <$MTBlogMarksURL$>
-  <$MTFaceBookURL$>
-  <$MTSphereItURL$>
-  <$MTTechnoratiURL$>
+      <$MTMagnoliaURL$>
+      <$MTDiggURL$>
+      <$MTdeliciousURL$>
+      <$MTredditURL$>
+      <$MTNewsvineURL$>
+      <$MTFurlURL$>
+      <$MTFarkURL$>
+      <$MTGoogleURL$>
+      <$MTSpurlURL$>
+      <$MTMyWebURL$>
+      <$MTBlinkListURL$>
+      <$MTBlinkBitsURL$>
+      <$MTConnoteaURL$>
+      <$MTFeedMeLinksURL$>
+      <$MTShadowsURL$>
+      <$MTSimpyURL$>
+      <$MTStumbleUponURL$>
+      <$MTLinkrollURL$>
+      <$MTBlogMarksURL$>
+      <$MTFaceBookURL$>
+      <$MTSphereItURL$>
+      <$MTTechnoratiURL$>
 
-# Example
+## Example
 
       <a href="<$MTDiggURL$>">Digg this</a>
 
