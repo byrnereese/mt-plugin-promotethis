@@ -72,7 +72,7 @@ element.
 
 # Example
 
-  <a href="<$MTDiggURL$>">Digg this</a>
+      <a href="<$MTDiggURL$>">Digg this</a>
 
 # Support
 
