@@ -1,10 +1,10 @@
-OVERVIEW
+# Promote This!
 
-Promote This is a plugin for Movable Type that makes it easy for 
+Promote This! is a plugin for Movable Type that makes it easy for 
 Movable Type users to add links to their favorite social bookmarking
 and promotion services like Digg.
 
-INSTALLATION AND UPGRADING
+# Installation AND Upgrading
 
 To install, place the "PromoteThis" directory in this distribution
 underneath your Movable Type "plugins" directory. 
@@ -14,7 +14,10 @@ The plugin files, once installed should match that shown below:
     MT_DIR/
            plugins/
                    PromoteThis/
-                               PromoteThis.pl
+                               config.yaml
+                               lib/
+                                              PromoteThis/
+                                                              Tags.pm
     MT_DIR/
            php/
                plugins/
@@ -38,7 +41,7 @@ The plugin files, once installed should match that shown below:
                        function.mtsphereiturl.php
 
 
-TEMPLATE TAGS
+# Template Tags
 
 Each of these tags MUST be called within the context of an MTEntry tag.
 Tach tag outputs a raw URL that is intended to be used in an a@href
@@ -67,26 +70,31 @@ element.
   <$MTSphereItURL$>
   <$MTTechnoratiURL$>
 
-EXAMPLE
+# Example
 
   <a href="<$MTDiggURL$>">Digg this</a>
 
-SUPPORT
+# Support
 
-Please post your bugs, questions and comments to the Promote This forums
-at:
+This plugin existed in 2006, so it probably works with many versions of Movable Type.  However, it has not been tested by After6 Services with any version of Movable Type prior to Movable Type 4.38.  It is known to work with Movable Type 5 up to at least 5.2.3.
 
-  http://forums.movabletype.org/
+Although After6 Services LLC has contributed to the development of this plugin, After6 only provides support for this plugin as part of a Movable Type support agreement that references this plugin by name.
 
-LICENSE
+# License
 
-Please consult the PROMOTETHIS-LICENSE.txt file that was included 
-in this plugin's zip file.
+Please consult the LICENSE.md file that was included in this plugin's zip file.
 
 AUTHOR
 
 Byrne Reese, byrne at majordojo dot com
 
+Dave Aiello, dave dot aiello at after6services dot com, updated the plugin for use with Movable Type 5.2.3 and later.
+
 COPYRIGHT
 
-Copyright 2006-2008, Six Apart, Ltd. All rights reserved.
+Copyright &copy; 2006-2008, Six Apart, Ltd.  All rights reserved.
+
+Copyright &copy; 2013, After6 Services LLC.  All rights reserved.
+
+Trademarks, product names, company names, or logos used in connection with this repository are the property of their respective owners and references do not imply any endorsement, sponsorship, or affiliation with After6 Services LLC unless otherwise specified.
+

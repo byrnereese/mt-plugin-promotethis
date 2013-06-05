@@ -1,0 +1,43 @@
+name: Promote This!
+id: promotethis
+author_name: Six Apart, Byrne Reese, and After6 Services LLC
+author_email: customer.service@after6services.com
+author_link: http://www.after6services.com/
+description: <MT_TRANS phrase="Promote This provides a set of template tags to make it easy to compose 'digg this' links, 'add to del.icio.us' links, reddit links, and more.">
+# doc_link: http://www.majordojo.com/projects/PromoteThis/
+
+version: 1.2
+
+tags:
+#    help_url: http://www.majordojo.com/plugins/%t.html
+#    block:
+#       
+    function:
+        AddThisURL: $PromoteThis::PromoteThis::Tags::_hdlr_AddThisURL
+        LinkedinURL: $PromoteThis::PromoteThis::Tags::_hdlr_LinkedinURL
+        TwitthisURL: $PromoteThis::PromoteThis::Tags::_hdlr_TwitthisURL
+        TechnoratiURL: $PromoteThis::PromoteThis::Tags::_hdlr_TechnoratiURL
+        MagnoliaURL: $PromoteThis::PromoteThis::Tags::_hdlr_MagnoliaURL
+        DiggURL: $PromoteThis::PromoteThis::Tags::_hdlr_DiggURL
+        deliciousURL: $PromoteThis::PromoteThis::Tags::_hdlr_deliciousURL
+        redditURL: $PromoteThis::PromoteThis::Tags::_hdlr_redditURL
+        NewsVineURL: $PromoteThis::PromoteThis::Tags::_hdlr_NewsVineURL
+        FurlURL: $PromoteThis::PromoteThis::Tags::_hdlr_FurlURL
+        FarkURL: $PromoteThis::PromoteThis::Tags::_hdlr_FarkURL
+        GoogleURL: $PromoteThis::PromoteThis::Tags::_hdlr_GoogleURL
+        SpurlURL: $PromoteThis::PromoteThis::Tags::_hdlr_SpurlURL
+        MyWebURL: $PromoteThis::PromoteThis::Tags::_hdlr_MyWebURL
+        BlinkListURL: $PromoteThis::PromoteThis::Tags::_hdlr_BlinkListURL
+        BlinkBitsURL: $PromoteThis::PromoteThis::Tags::_hdlr_BlinkBitsURL
+        ConnoteaURL: $PromoteThis::PromoteThis::Tags::_hdlr_ConnoteaURL
+        FeedMeLinksURL: $PromoteThis::PromoteThis::Tags::_hdlr_FeedMeLinksURL
+        ShadowsURL: $PromoteThis::PromoteThis::Tags::_hdlr_ShadowsURL
+        SimpyURL: $PromoteThis::PromoteThis::Tags::_hdlr_SimpyURL
+        StumbleUponURL: $PromoteThis::PromoteThis::Tags::_hdlr_StumbleUponURL
+        LinkrollURL: $PromoteThis::PromoteThis::Tags::_hdlr_LinkrollURL
+        BlogMarksURL: $PromoteThis::PromoteThis::Tags::_hdlr_BlogMarksURL
+        FacebookURL: $PromoteThis::PromoteThis::Tags::_hdlr_FacebookURL
+        SphereItURL: $PromoteThis::PromoteThis::Tags::_hdlr_SphereItURL
+        EmailLinkURL: $PromoteThis::PromoteThis::Tags::_hdlr_EmailLinkURL
+        NetLogURL: $PromoteThis::PromoteThis::Tags::_hdlr_NetLogURL
+        TwitterURL: $PromoteThis::PromoteThis::Tags::_hdlr_TwitterURL
