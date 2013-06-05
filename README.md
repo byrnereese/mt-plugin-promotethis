@@ -41,38 +41,40 @@ The plugin files, once installed should match that shown below:
                        function.mtsphereiturl.php
 
 
-# Template Tags
+# Usage
+
+## Template Tags
 
 Each of these tags MUST be called within the context of an MTEntry tag.
 Tach tag outputs a raw URL that is intended to be used in an a@href
 element.
 
-  <$MTMagnoliaURL$>
-  <$MTDiggURL$>
-  <$MTdeliciousURL$>
-  <$MTredditURL$>
-  <$MTNewsvineURL$>
-  <$MTFurlURL$>
-  <$MTFarkURL$>
-  <$MTGoogleURL$>
-  <$MTSpurlURL$>
-  <$MTMyWebURL$>
-  <$MTBlinkListURL$>
-  <$MTBlinkBitsURL$>
-  <$MTConnoteaURL$>
-  <$MTFeedMeLinksURL$>
-  <$MTShadowsURL$>
-  <$MTSimpyURL$>
-  <$MTStumbleUponURL$>
-  <$MTLinkrollURL$>
-  <$MTBlogMarksURL$>
-  <$MTFaceBookURL$>
-  <$MTSphereItURL$>
-  <$MTTechnoratiURL$>
+      <$MTMagnoliaURL$>
+      <$MTDiggURL$>
+      <$MTdeliciousURL$>
+      <$MTredditURL$>
+      <$MTNewsvineURL$>
+      <$MTFurlURL$>
+      <$MTFarkURL$>
+      <$MTGoogleURL$>
+      <$MTSpurlURL$>
+      <$MTMyWebURL$>
+      <$MTBlinkListURL$>
+      <$MTBlinkBitsURL$>
+      <$MTConnoteaURL$>
+      <$MTFeedMeLinksURL$>
+      <$MTShadowsURL$>
+      <$MTSimpyURL$>
+      <$MTStumbleUponURL$>
+      <$MTLinkrollURL$>
+      <$MTBlogMarksURL$>
+      <$MTFaceBookURL$>
+      <$MTSphereItURL$>
+      <$MTTechnoratiURL$>
 
-# Example
+## Example
 
-  <a href="<$MTDiggURL$>">Digg this</a>
+      <a href="<$MTDiggURL$>">Digg this</a>
 
 # Support
 
@@ -82,19 +84,23 @@ Although After6 Services LLC has contributed to the development of this plugin, 
 
 # License
 
-Please consult the LICENSE.md file that was included in this plugin's zip file.
+Please consult the LICENSE.md file that was included in this plugin's distribution.
 
-AUTHOR
+# Authorship
 
-Byrne Reese, byrne at majordojo dot com
+A substantial part of Promote This! was written by Byrne Reese, byrne at majordojo dot com, both before and after he worked at Six Apart.
 
 Dave Aiello, dave dot aiello at after6services dot com, updated the plugin for use with Movable Type 5.2.3 and later.
 
-COPYRIGHT
+# Copyright
 
 Copyright &copy; 2006-2008, Six Apart, Ltd.  All rights reserved.
 
+Copyright &copy; 2008-2010, Byrne Reese. All rights reserved.
+
 Copyright &copy; 2013, After6 Services LLC.  All rights reserved.
+
+Movable Type is a registered trademark of Six Apart, Ltd.
 
 Trademarks, product names, company names, or logos used in connection with this repository are the property of their respective owners and references do not imply any endorsement, sponsorship, or affiliation with After6 Services LLC unless otherwise specified.
 

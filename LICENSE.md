@@ -2,6 +2,8 @@
 
 Copyright &copy; 2006-2008, Six Apart, Ltd.  All rights reserved.
 
+Copyright &copy; 2008-2010, Byrne Reese. All rights reserved.
+
 Copyright &copy; 2013, [After6 Services LLC](http://www.after6services.com/).  All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
